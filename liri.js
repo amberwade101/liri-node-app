@@ -63,11 +63,11 @@ function spotifythisSong() {
 	} else {
 	    console.log(JSON.stringify(data.tracks.items[0].artists, null, 2));
 	   
-	    console.log("Artitst: " + data.tracks.items[0].artists[0].name);
+	    console.log("Artist: " + data.tracks.items[0].artists[0].name);
 	   
 	    console.log("Song: " + data.tracks.items[0].name);
 	   
-	    console.log("Spotify Link: " + data.tracks.items[0].href);
+	    console.log("Link: " + data.tracks.items[0].href);
 	   
 	    console.log("Album: " + data.tracks.items[0].album.name);
 
