@@ -107,7 +107,7 @@ console.log("Title: " + JSON.parse(body).Title);
 	  
 	    console.log("Actors: " + JSON.parse(body).Actors);
 	   
-	    console.log("Rating: " + JSON.parse(body).Ratings[1].Value);
+	    console.log("Rating: " + JSON.parse(body).Ratings);
 	  
 	    console.log("Rotten Tomatoes: https://www.rottentomatoes.com/search/?search=" + movieName);
 	
